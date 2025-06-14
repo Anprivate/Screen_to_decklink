@@ -1,0 +1,30 @@
+object FormSelect: TFormSelect
+  Left = 0
+  Top = 0
+  Cursor = crCross
+  Hint = 'Enter - to save new selection. ESC - to cannxcel'
+  AlphaBlend = True
+  AlphaBlendValue = 150
+  BorderStyle = bsNone
+  Caption = 'FormSelect'
+  ClientHeight = 338
+  ClientWidth = 651
+  Color = clBtnFace
+  TransparentColor = True
+  TransparentColorValue = clGreen
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+end
